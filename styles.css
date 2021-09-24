@@ -8,13 +8,18 @@ body {
 }
 
 .portfolio {
-  margin-top: 336px;
+  margin-top: 200px;
 }
 
 .portfolio h4 {
   font-size: 38px;
   font-weight: 900;
   line-height: 3.4rem;
+}
+
+.service {
+  font-weight: 900;
+  color: #ff688c;
 }
 
 .portfolio h3 {
@@ -27,6 +32,7 @@ body {
 
 .portfolio p {
   margin-bottom: 65.19px;
+  font-size: 18px;
 }
 
 .btn-container {
@@ -40,6 +46,11 @@ button.btn-img {
   color: #ff688c;
 }
 
+.team h2 {
+  font-weight: 900;
+  font-size: 38px;
+}
+
 @media screen and (min-width: 1424px) {
   .portfolio h4 {
     padding-left: 21rem;
@@ -47,6 +58,16 @@ button.btn-img {
   }
 
   .portfolio p {
+    padding: 0 29rem;
+  }
+
+  .team h2 {
+    padding-left: 21rem;
+    padding-right: 21rem;
+    line-height: 143.1%;
+  }
+
+  .team p {
     padding: 0 29rem;
   }
 }
@@ -59,61 +80,59 @@ button.btn-img {
 }
 
 .first_word {
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 143.1%;
-    color: #FF688C;
-} 
-
-.section_4 {
-    margin-top: 100px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 143.1%;
+  color: #ff688c;
 }
 
-.section_4 h2 {
-    width: 43%;
-    margin: 0 auto;
-    line-height: 143.1%;
-    font-weight: 900;
-    font-size: 38px;
+.section_4 {
+  margin-top: 100px;
 }
 
 .section_4 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .cards {
-    width: 90%;
+  width: 90%;
 }
 
 .first-p {
-    width: 27%;
-    margin: 0 auto;
-    font-size: 18px;
-    line-height: 153.1%;
-    color: #7F7E7E;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 153.1%;
+  color: #7f7e7e;
+}
+
+.service-p {
+  font-weight: 900;
 }
 
 .section_5 {
-    margin-bottom: 150px;
+  margin-bottom: 150px;
 }
 
 .section_5 h2 {
-    margin-top: 140px;
-    font-weight: 900;
-    font-size: 38px;
-    line-height: 143.1%;
-    color: #000000;
+  margin-top: 140px;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 143.1%;
+  color: #000000;
 }
 
 .section_5 p {
-    width: 40%;
-    margin: 0 auto;
-    font-size: 18px;
-    line-height: 153.1%;
-  color: #7F7E7E;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 153.1%;
+  color: #7f7e7e;
 }
 
-.hero_section{
-    background: linear-gradient(139.99deg, #3F4FD7 22.82%, rgba(14, 25, 116, 0.86) 82.13%);
+.hero_section {
+  background: linear-gradient(
+    139.99deg,
+    #3f4fd7 22.82%,
+    rgba(14, 25, 116, 0.86) 82.13%
+  );
 }
